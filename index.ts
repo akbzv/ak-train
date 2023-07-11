@@ -10,3 +10,7 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
+
+
+var a = 10;
+console.log(a);
